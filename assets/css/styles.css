@@ -9,6 +9,7 @@ html {
 body {
     font-size: 1.6rem;
     font-family: "Poppins", sans-serif;
+    background: #fffaf5;
 }
 
 /* Common */
@@ -90,4 +91,64 @@ button {
     --height: 50px;
 
     min-width: 118px;
+}
+
+/* Hero */
+.hero {
+    margin-top: 74px;
+}
+
+.hero__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero__media {
+    display: flex;
+}
+
+.hero__img-wrap {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 388px;
+    height: 488px;
+    background: #fe997b;
+    border: 3px solid #ffffff;
+    border-radius: 16px;
+}
+
+.hero__img {
+    border-radius: inherit;
+    width: 100%;
+    height: 100%;
+}
+
+.hero__decor {
+    position: absolute;
+    z-index: -1;
+}
+
+.hero__decor-left {
+    left: -58px;
+    bottom: 10px;
+}
+
+.hero__decor-right {
+    top: 17px;
+    right: -43px;
+}
+
+.hero__img-wrap-small {
+    align-self: flex-end;
+    width: 186px;
+    height: 244px;
+    margin: 0 0 -58px -24px;
+    background: #faa7ad;
+    border: 2px solid #ffffffa6;
+}
+
+.hero__img-small {
 }
