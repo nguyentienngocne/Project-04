@@ -594,6 +594,7 @@ button {
 
 .service__body {
     margin-top: 70px;
+    column-gap: 65px;
     display: grid;
     grid-template-columns: auto 1fr auto;
 }
@@ -604,6 +605,10 @@ button {
     background: #fff;
     border: 2px solid #ffbc7a42;
     border-radius: 10px;
+}
+
+.service__item + .service__item {
+    margin-top: 24px;
 }
 
 .service-item__heading {
@@ -638,7 +643,40 @@ button {
     margin-left: 5px;
 }
 
-.service__column {
-    display: grid;
-    row-gap: 24px;
+.service__media {
+    margin-top: 18px;
+    position: relative;
+}
+
+.service__media::after {
+    position: absolute;
+    content: "";
+    height: 350px;
+    left: 16px;
+    right: 16px;
+    bottom: 0;
+    border-radius: 10px;
+    background: linear-gradient(180deg, #9df1fb 0%, #73d0db 108.14%);
+}
+
+.service__img {
+    position: relative;
+    display: block;
+    z-index: 1;
+    width: 100%;
+}
+
+.service__cta-wrap {
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+}
+
+.service__cta {
+    min-width: 214px;
+    border: 1px solid #ff5b2e;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1;
+    color: #ff5b2e;
 }
