@@ -1172,3 +1172,126 @@ button {
     line-height: 1.71;
     color: #656689;
 }
+
+/* Footer */
+.footer {
+    margin-top: 52px;
+    background: linear-gradient(to right, #fff6ed 35%, #fffaf5 35%);
+}
+
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__left {
+    width: 35%;
+    padding: 114px 0 148px 0;
+}
+
+.footer__right {
+    flex-grow: 1;
+    padding: 52px 0 48px 129px;
+}
+
+.subscribe-form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 268px;
+    height: 46px;
+    margin: 34px 0 68px;
+    border: 1px solid #ff5b2e40;
+    border-radius: 99px;
+    background: #fff;
+}
+
+.subscribe-form__input {
+    width: 100%;
+    height: 100%;
+    padding: 0 22px;
+    border: none;
+    border-radius: inherit;
+    outline: none;
+    font-size: 1.4rem;
+}
+
+.subscribe-form__input::placeholder {
+    font-family: Poppins, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 1.17;
+    color: #656689;
+}
+
+.subscribe-form__submit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 46px;
+    height: 46px;
+    margin-right: -1px;
+    border-radius: 50%;
+    background: #ff5b2e;
+    box-shadow: 0px 15px 28px -7px #ff5b2e4d;
+    border: none;
+    outline: none;
+}
+
+.subscribe-form__submit:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.footer__heading {
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.11;
+    color: #000958;
+}
+
+.social-list {
+    margin-top: 16px;
+    display: flex;
+    column-gap: 16px;
+}
+
+.social-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: #fff;
+}
+
+.social-item:hover {
+    opacity: 0.8;
+}
+
+.footer__row {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 58px 137px;
+}
+
+.footer__list {
+    margin-top: 14px;
+}
+
+.footer__link {
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 2;
+    color: #656689;
+}
+
+.footer__copyright {
+    margin: 52px 0 0 -137px;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.17;
+    color: #656689;
+}
